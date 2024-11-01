@@ -1,0 +1,30 @@
+<assembly>
+	<id>mobile</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<fileSets>
+		<fileSet>
+			<directory>${basedir}/src/eInstant</directory>
+			<outputDirectory>/package/eInstant</outputDirectory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>${basedir}/src/eInstant</directory>
+			<outputDirectory>/package/eInstant/locale</outputDirectory>
+			<includes>
+				<include>**/lang/**/*</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>${basedir}/CM</directory>
+			<outputDirectory>/CM</outputDirectory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+</assembly>

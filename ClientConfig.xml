@@ -1,0 +1,5 @@
+<ClientConfig>
+	<GameClient name="Gold n Clovers WLA" clientCode="mobile" technology="HTML" height="600" width="800" meterheight="0" meterwidth="10" gameFolder="GoldNClovers" enableFreeSpin="Y" clientversion="1.0" gameId="300-2077-0" />
+	<GameClient name="Gold n Clovers WLA" clientCode="tablet" technology="HTML" height="600" width="800" meterheight="0" meterwidth="10" gameFolder="GoldNClovers" enableFreeSpin="Y" clientversion="1.0" gameId="300-2077-0" />
+	<GameClient name="Gold n Clovers WLA" clientCode="desktop" technology="HTML" height="600" width="800" meterheight="0" meterwidth="10" gameFolder="GoldNClovers" enableFreeSpin="Y" clientversion="1.0" gameId="300-2077-0" />
+</ClientConfig>

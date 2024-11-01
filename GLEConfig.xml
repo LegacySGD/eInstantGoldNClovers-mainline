@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2077" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Gold n Clovers WLA" version="1.0.6" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="4000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,nb_NO"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">
+
+            <!-- NT -->
+            <paymodel modelid="300-2077-001"  revealId="2077" revealVersionId="2077"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Gold n Clovers : 300-2077-001"
+                      hibethold="38.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2077-001"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2077-001"   clienttype="HTML" configcode="PHLP"/>
+            
+            <denom currencycode="USD" amount="0.01"/>
+            <denom currencycode="NOK" amount="0.01"/>
+        </game>
+    </family>
